@@ -9,52 +9,52 @@ class Hashtag
     /**
      * @var int
      */
-    private $id;
+    public $id;
 
     /**
      * @var string
      */
-    private $name;
+    public $name;
 
     /**
      * @var bool
      */
-    private $allowFollowing;
+    public $allowFollowing;
 
     /**
      * @var bool
      */
-    private $following;
+    public $following;
 
     /**
      * @var bool
      */
-    private $topMediaOnly;
+    public $topMediaOnly;
 
     /**
      * @var int
      */
-    private $mediaCount = 0;
+    public $mediaCount = 0;
 
     /**
      * @var string
      */
-    private $profilePicture;
+    public $profilePicture;
 
     /**
      * @var Media[]
      */
-    private $medias = [];
+    public $medias = [];
 
     /**
      * @var bool
      */
-    private $hasMoreMedias = false;
+    public $hasMoreMedias = false;
 
     /**
      * @var string
      */
-    private $endCursor = null;
+    public $endCursor = null;
 
     /**
      * @return string

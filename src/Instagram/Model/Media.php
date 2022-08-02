@@ -19,107 +19,107 @@ class Media
     /**
      * @var int
      */
-    private $id;
+    public $id;
 
     /**
      * @var string
      */
-    private $shortCode;
+    public $shortCode;
 
     /**
      * @var string
      */
-    private $typeName = '';
+    public $typeName = '';
 
     /**
      * @var int
      */
-    private $height;
+    public $height;
 
     /**
      * @var int
      */
-    private $width;
+    public $width;
 
     /**
      * @var string
      */
-    private $thumbnailSrc;
+    public $thumbnailSrc;
 
     /**
      * @var string
      */
-    private $link;
+    public $link;
 
     /**
      * @var \DateTime
      */
-    private $date;
+    public $date;
 
     /**
      * @var string
      */
-    private $displaySrc;
+    public $displaySrc;
 
     /**
      * @var string
      */
-    private $caption;
+    public $caption;
 
     /**
      * @var int
      */
-    private $comments;
+    public $comments;
 
     /**
      * @var int
      */
-    private $likes;
+    public $likes;
 
     /**
      * @var array
      */
-    private $thumbnails = [];
+    public $thumbnails = [];
 
     /**
      * @var mixed
      */
-    private $location;
+    public $location;
 
     /**
      * @var bool
      */
-    private $video = false;
+    public $video = false;
 
     /**
      * @var string
      */
-    private $videoUrl = '';
+    public $videoUrl = '';
 
     /**
      * @var int
      */
-    private $videoViewCount = 0;
+    public $videoViewCount = 0;
 
     /**
      * @var string
      */
-    private $accessibilityCaption;
+    public $accessibilityCaption;
 
     /**
      * @var bool
      */
-    private $igtv = false;
+    public $igtv = false;
 
     /**
      * @var array
      */
-    private $hashtags = [];
+    public $hashtags = [];
 
     /**
      * @var int
      */
-    private $ownerId;
+    public $ownerId;
 
     /**
      * @return int

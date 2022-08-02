@@ -9,77 +9,77 @@ class StoryMedia
     /**
      * @var int
      */
-    private $id;
+    public $id;
 
     /**
      * @var string
      */
-    private $typeName;
+    public $typeName;
 
     /**
      * @var int
      */
-    private $height;
+    public $height;
 
     /**
      * @var int
      */
-    private $width;
+    public $width;
 
     /**
      * @var string
      */
-    private $displayUrl;
+    public $displayUrl;
 
     /**
      * @var array
      */
-    private $displayResources;
+    public $displayResources;
 
     /**
      * @var \DateTime
      */
-    private $takenAtDate;
+    public $takenAtDate;
 
     /**
      * @var \DateTime
      */
-    private $expiringAtDate;
+    public $expiringAtDate;
 
     /**
      * @var float
      */
-    private $videoDuration = 0;
+    public $videoDuration = 0;
 
     /**
      * @var array
      */
-    private $videoResources = [];
+    public $videoResources = [];
 
     /**
      * @var bool
      */
-    private $audio = false;
+    public $audio = false;
 
     /**
      * @var string
      */
-    private $ctaUrl;
+    public $ctaUrl;
 
     /**
      * @var array
      */
-    private $hashtags;
+    public $hashtags;
 
     /**
      * @var array
      */
-    private $mentions;
+    public $mentions;
 
     /**
      * @var array
      */
-    private $locations;
+    public $locations;
 
     /**
      * @return int

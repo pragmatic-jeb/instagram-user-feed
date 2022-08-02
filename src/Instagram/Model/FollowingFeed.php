@@ -9,22 +9,22 @@ class FollowingFeed
     /**
      * @var int
      */
-    private $count;
+    public $count;
 
     /**
      * @var boolean
      */
-    private $hasNextPage;
+    public $hasNextPage;
 
     /**
      * @var string
      */
-    private $endCursor;
+    public $endCursor;
 
     /**
      * @var array
      */
-    private $users = [];
+    public $users = [];
 
     /**
      * @return int

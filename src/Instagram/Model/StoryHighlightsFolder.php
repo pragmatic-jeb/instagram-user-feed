@@ -9,37 +9,37 @@ class StoryHighlightsFolder
     /**
      * @var int
      */
-    private $id;
+    public $id;
 
     /**
      * @var int
      */
-    private $userId;
+    public $userId;
 
     /**
      * @var string
      */
-    private $name;
+    public $name;
 
     /**
      * @var string
      */
-    private $cover;
+    public $cover;
 
     /**
      * @var string
      */
-    private $url;
+    public $url;
 
     /**
      * @var string
      */
-    private $sharableUrl;
+    public $sharableUrl;
 
     /**
      * @var array
      */
-    private $stories = [];
+    public $stories = [];
 
     /**
      * @return int

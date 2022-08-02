@@ -9,7 +9,7 @@ class StoryHighlights
     /**
      * @var array
      */
-    private $folders = [];
+    public $folders = [];
 
     /**
      * @return StoryHighlightsFolder[]

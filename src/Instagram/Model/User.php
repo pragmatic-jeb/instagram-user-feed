@@ -9,42 +9,42 @@ class User
     /**
      * @var int
      */
-    private $id;
+    public $id;
 
     /**
      * @var string
      */
-    private $userName;
+    public $userName;
 
     /**
      * @var string
      */
-    private $fullName;
+    public $fullName;
 
     /**
      * @var string
      */
-    private $profilePicUrl;
+    public $profilePicUrl;
 
     /**
      * @var boolean
      */
-    private $isPrivate;
+    public $ispublic;
 
     /**
      * @var boolean
      */
-    private $isVerified;
+    public $isVerified;
 
     /**
      * @var boolean
      */
-    private $followedByViewer;
+    public $followedByViewer;
 
     /**
      * @var boolean
      */
-    private $requestedByViewer;
+    public $requestedByViewer;
 
     /**
      * @return int
@@ -114,17 +114,17 @@ class User
     /**
      * @return bool
      */
-    public function isPrivate(): bool
+    public function ispublic(): bool
     {
-        return $this->isPrivate;
+        return $this->ispublic;
     }
 
     /**
-     * @param bool $isPrivate
+     * @param bool $ispublic
      */
-    public function setIsPrivate(bool $isPrivate): void
+    public function setIspublic(bool $ispublic): void
     {
-        $this->isPrivate = $isPrivate;
+        $this->ispublic = $ispublic;
     }
 
     /**
@@ -185,7 +185,7 @@ class User
             'userName'          => $this->userName,
             'fullName'          => $this->fullName,
             'profilePicUrl'     => $this->profilePicUrl,
-            'isPrivate'         => $this->isPrivate,
+            'ispublic'         => $this->ispublic,
             'isVerified'        => $this->isVerified,
             'followedByViewer'  => $this->followedByViewer,
             'requestedByViewer' => $this->requestedByViewer,

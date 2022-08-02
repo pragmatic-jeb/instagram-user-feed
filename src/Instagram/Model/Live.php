@@ -9,12 +9,12 @@ class Live
     /**
      * @var int
      */
-    private $broadcastId;
+    public $broadcastId;
 
     /**
      * @var object
      */
-    private $broadcastDict;
+    public $broadcastDict;
 
     /**
      * @return string

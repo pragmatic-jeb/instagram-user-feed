@@ -9,92 +9,92 @@ class Profile
     /**
      * @var int
      */
-    private $id;
+    public $id;
 
     /**
      * @var string
      */
-    private $id32Bit;
+    public $id32Bit;
 
     /**
      * @var string
      */
-    private $userName;
+    public $userName;
 
     /**
      * @var string
      */
-    private $fullName;
+    public $fullName;
 
     /**
      * @var string
      */
-    private $biography;
+    public $biography;
 
     /**
      * @var int
      */
-    private $followers;
+    public $followers;
 
     /**
      * @var int
      */
-    private $following;
+    public $following;
 
     /**
      * @var string
      */
-    private $profilePicture;
+    public $profilePicture;
 
     /**
      * @var string
      */
-    private $externalUrl;
+    public $externalUrl;
 
     /**
      * @var bool
      */
-    private $private;
+    public $public;
 
     /**
      * @var bool
      */
-    private $verified;
+    public $verified;
 
     /**
      * @var int
      */
-    private $mediaCount = 0;
+    public $mediaCount = 0;
 
     /**
      * @var Media[]
      */
-    private $medias = [];
+    public $medias = [];
 
     /**
      * @var bool
      */
-    private $hasMoreMedias = false;
+    public $hasMoreMedias = false;
 
     /**
      * @var string
      */
-    private $endCursor = null;
+    public $endCursor = null;
 
     /**
      * @var Media[]
      */
-    private $igtvs = [];
+    public $igtvs = [];
 
     /**
      * @var bool
      */
-    private $hasMoreIgtvs = false;
+    public $hasMoreIgtvs = false;
 
     /**
      * @var string
      */
-    private $endCursorIgtvs = null;
+    public $endCursorIgtvs = null;
 
     /**
      * @return string
@@ -212,17 +212,17 @@ class Profile
     /**
      * @return bool
      */
-    public function isPrivate(): bool
+    public function ispublic(): bool
     {
-        return $this->private;
+        return $this->public;
     }
 
     /**
-     * @param bool $private
+     * @param bool $public
      */
-    public function setPrivate(bool $private): void
+    public function setpublic(bool $public): void
     {
-        $this->private = $private;
+        $this->public = $public;
     }
 
     /**
@@ -343,7 +343,7 @@ class Profile
             'following'      => $this->following,
             'profilePicture' => $this->profilePicture,
             'externalUrl'    => $this->externalUrl,
-            'private'        => $this->private,
+            'public'        => $this->public,
             'verified'       => $this->verified,
             'mediaCount'     => $this->mediaCount,
             'medias'         => array_map(function ($media) {

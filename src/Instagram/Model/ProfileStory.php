@@ -9,27 +9,27 @@ class ProfileStory
     /**
      * @var bool
      */
-    private $allowedToReply;
+    public $allowedToReply;
 
     /**
      * @var \StdClass
      */
-    private $owner;
+    public $owner;
 
     /**
      * @var bool
      */
-    private $reshareable;
+    public $reshareable;
 
     /**
      * @var \DateTime
      */
-    private $expiringDate;
+    public $expiringDate;
 
     /**
      * @var array
      */
-    private $stories = [];
+    public $stories = [];
 
     /**
      * @return bool

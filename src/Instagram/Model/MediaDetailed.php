@@ -9,32 +9,32 @@ class MediaDetailed extends Media
     /**
      * @var string
      */
-    private $videoUrl;
+    public $videoUrl;
 
     /**
      * @var bool
      */
-    private $hasAudio = false;
+    public $hasAudio = false;
 
     /**
      * @var array
      */
-    private $taggedUsers = [];
+    public $taggedUsers = [];
 
     /**
      * @var array
      */
-    private $sideCarItems = [];
+    public $sideCarItems = [];
 
     /**
      * @var array
      */
-    private $displayResources = [];
+    public $displayResources = [];
 
     /**
      * @var Profile
      */
-    private $profile;
+    public $profile;
 
     /**
      * @return ?string

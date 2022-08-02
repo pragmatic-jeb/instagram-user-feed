@@ -9,27 +9,27 @@ class MediaComments
     /**
      * @var int
      */
-    private $count = 0;
+    public $count = 0;
 
     /**
      * @var array
      */
-    private $comments = [];
+    public $comments = [];
 
     /**
      * @var bool
      */
-    private $hasMoreComments = false;
+    public $hasMoreComments = false;
 
     /**
      * @var string
      */
-    private $endCursor = null;
+    public $endCursor = null;
 
     /**
      * @var int
      */
-    private $mediaCount = 0;
+    public $mediaCount = 0;
 
     /**
      * @param Comment $comment

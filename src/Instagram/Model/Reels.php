@@ -9,52 +9,52 @@ class Reels
     /**
      * @var string
      */
-    private $id;
+    public $id;
 
     /**
      * @var string
      */
-    private $shortCode;
+    public $shortCode;
 
     /**
      * @var int
      */
-    private $likes;
+    public $likes;
 
     /**
      * @var float
      */
-    private $videoDuration;
+    public $videoDuration;
 
     /**
      * @var int
      */
-    private $viewCount;
+    public $viewCount;
 
     /**
      * @var int
      */
-    private $playCount;
+    public $playCount;
 
     /**
      * @var array
      */
-    private $imageVersions = [];
+    public $imageVersions = [];
 
     /**
      * @var array
      */
-    private $videoVersions = [];
+    public $videoVersions = [];
 
     /**
      * @var \DateTime
      */
-    private $date;
+    public $date;
 
     /**
      * @var string
      */
-    private $caption;
+    public $caption;
 
     /**
      * @return string

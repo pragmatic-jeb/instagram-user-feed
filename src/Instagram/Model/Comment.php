@@ -9,22 +9,22 @@ class Comment
     /**
      * @var int
      */
-    private $id;
+    public $id;
 
     /**
      * @var string
      */
-    private $caption;
+    public $caption;
 
     /**
      * @var \StdClass
      */
-    private $owner;
+    public $owner;
 
     /**
      * @var \DateTime
      */
-    private $date;
+    public $date;
 
     /**
      * @return int

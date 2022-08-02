@@ -9,17 +9,17 @@ class TaggedMediasFeed
     /**
      * @var array
      */
-    private $medias = [];
+    public $medias = [];
 
     /**
      * @var boolean
      */
-    private $hasNextPage;
+    public $hasNextPage;
 
     /**
      * @var string
      */
-    private $endCursor;
+    public $endCursor;
 
     /**
      * @return array

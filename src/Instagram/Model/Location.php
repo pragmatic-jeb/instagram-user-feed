@@ -9,82 +9,82 @@ class Location
     /**
      * @var int
      */
-    private $id;
+    public $id;
 
     /**
      * @var string
      */
-    private $name;
+    public $name;
 
     /**
      * @var bool
      */
-    private $hasPublicPage = false;
+    public $hasPublicPage = false;
 
     /**
      * @var float
      */
-    private $latitude = 0;
+    public $latitude = 0;
 
     /**
      * @var float
      */
-    private $longitude = 0;
+    public $longitude = 0;
 
     /**
      * @var string
      */
-    private $slug;
+    public $slug;
 
     /**
      * @var string
      */
-    private $description;
+    public $description;
 
     /**
      * @var string
      */
-    private $website;
+    public $website;
 
     /**
      * @var string
      */
-    private $phone;
+    public $phone;
 
     /**
      * @var string
      */
-    private $facebookAlias;
+    public $facebookAlias;
 
     /**
      * @var array
      */
-    private $address;
+    public $address;
 
     /**
      * @var string
      */
-    private $profilePicture;
+    public $profilePicture;
 
     /**
      * @var int
      */
-    private $totalMedia = 0;
+    public $totalMedia = 0;
 
     /**
      * @var Media[]
      */
-    private $medias = [];
+    public $medias = [];
 
     /**
      * @var bool
      */
-    private $hasMoreMedias = false;
+    public $hasMoreMedias = false;
 
     /**
      * @var string
      */
-    private $endCursor = null;
+    public $endCursor = null;
 
     /**
      * @return int

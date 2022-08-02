@@ -9,12 +9,12 @@ class ReelsFeed
     /**
      * @var array
      */
-    private $reels = [];
+    public $reels = [];
 
     /**
      * @var null|string
      */
-    private $maxId = null;
+    public $maxId = null;
 
     /**
      * @param Reels $reels
