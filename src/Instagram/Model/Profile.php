@@ -220,7 +220,7 @@ class Profile
     /**
      * @param bool $public
      */
-    public function setpublic(bool $public): void
+    public function setPrivate(bool $public): void
     {
         $this->public = $public;
     }
